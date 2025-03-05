@@ -18,7 +18,7 @@
 "margin-top": 4,
 "margin-left": 6,
 "margin-right": 6,
-"padding-right": 10,
+"padding-right": 6,
 "border-radius": 4,
 "modules-left": [
 	// "idle_inhibitor",
@@ -34,7 +34,7 @@
 "modules-center": [
 	"group/app_drawer",
 	"custom/separator#dot-line",
-	"hyprland/workspaces#rw",
+	"hyprland/workspaces#numbers",
 	"custom/separator#dot-line",
 	"group/notify"
 	],

@@ -12,8 +12,9 @@
 }
 
 window#waybar {
-	background: #11111b;
+	background: #12121a;
 	color: #cba6f7;
+	border-radius: 8px;
 }
 
 window#waybar.hidden {
@@ -21,12 +22,13 @@ window#waybar.hidden {
 }
 
 tooltip {
-	background: #1e1e2e;
+	background: #12121a;
 	border-radius: 10px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #11111b;
+	border-color: #21212f;
 	color: #cba6f7;
+	margin-top: 4px;
 }
 
 /*-----module groups----*/
@@ -34,7 +36,7 @@ tooltip {
 .modules-right {
 	border: 3px solid #11111b;
 	border-radius: 10px 10px 10px 10px;
-	background-color: #313244;
+	background-color: #21212f;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-right: 4px;
@@ -54,30 +56,30 @@ tooltip {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: 9px;
+    border-radius: 7px;
     padding-left: 4px;
     padding-right: 4px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+	min-width: 20px;
+    /* animation: gradient_f 20s ease-in infinite; */
+    /* transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682); */
 }
+
 
 #taskbar button.active,
 #workspaces button.active {
-	color: #1e1e1e;
-	border-radius: 30%;
-	background-color: #cba6f7;
-    padding-left: 6px;
-    padding-right: 8px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+	color: white;
+	border-radius: 7px;
+	background-color: #21212f;
+    padding-left: 4px;
+    padding-right: 4px;
+	min-width: 20px;
+    /* animation: gradient_f 20s ease-in infinite; */
+    /* transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682); */
 }
 
 #workspaces button.active:hover {
-	color: #1e1e1e;
-	border-radius: 30%;
+	color: #ffffff;
 	background-color: #cba6f7;
-    padding-left: 6px;
-    padding-right: 8px;
 }
 
 #workspaces button.focused {
@@ -85,21 +87,16 @@ tooltip {
 }
 
 #workspaces button.urgent {
-	border-radius: 30%;
 	background-color: #cba6f7;
 	color: #1e1e1e;
 }
 
 #taskbar button:hover,
 #workspaces button:hover {
-	color: #1e1e1e;
-	border: 3px solid #1e1e2e;
-	background-color: #cba6f7;
-    border-radius: 30%;
- 	padding-left: 4px;
+	color: white;
+	background-color: #21212f;
+	padding-left: 4px;
     padding-right: 4px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #backlight,
